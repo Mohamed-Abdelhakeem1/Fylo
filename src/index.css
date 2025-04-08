@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+
+.flexCenter {
+  @apply flex justify-center items-center;
+}
+
+.container {
+  @apply px-[8px] sm:px-[16px] md:px-[32px] lg:px-[64px] mx-auto;
+}
+
+.btn {
+  @apply rounded-full py-3 px-12 bg-blue-600 w-fit mx-auto hover:bg-blue-500 transition-all duration-200 cursor-pointer;
+}
+
+
+
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #1c2433;
+}
