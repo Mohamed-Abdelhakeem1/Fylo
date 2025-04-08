@@ -9,7 +9,7 @@ const Header = () => {
       className="h-fit opacity-90 hover:opacity-100 hover:underline  transition-all duration-500"
       key={idx}
     >
-      <a className="block p-1" href={`/${el.toLowerCase()}`}>
+      <a className="block p-1" href={"/"}>
         {el}
       </a>
     </li>
